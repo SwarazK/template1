@@ -1,4 +1,60 @@
 html,body{
 	height: 100%;
-	width: 100%
+	width: 100%;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+div.container-main{
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+	font-size: 1.1em;
+}
+
+div.header{
+	/*grid-column: 1/-1;*/
+}
+
+.green{
+
+	background-color: #2DE22D;
+	background-image: radial-gradient(#80F180, #52E952, #04DC04, #00B600);
+
+	padding: 2em;
+	margin: 1em 2em;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.red{
+
+	background-color: #F4042F;
+	background-image: radial-gradient(#F7607B, #F53456, #DE0027, #AC001F);
+
+	padding: 2em;
+	margin: 1em 2em;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.blue{
+
+	background-color: #328FCB;
+	background-image: radial-gradient(#80BDE5, #54A3D7, #0F7AC0, #075B92);
+
+	padding: 2em;
+	margin: 1em 2em;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.orange{
+
+	background-color: #FF7605;
+	background-image: radial-gradient(#FFAB66, #FF943C, #C85B00, #9D4700);
+
+	padding: 2em;
+	margin: 1em 2em;
+	text-align: center;
+	border-radius: 10px;
 }
